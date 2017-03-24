@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 import urllib2
 import os
 import json
@@ -6,7 +6,7 @@ import sys
 import shutil
 import re
 
-def getSteamName(steamID):
+def get_steam_name(steamID):
         try:
                 steamID = int(steamID)
                 if steamID > 0 and steamID < 9223372036854775807:
@@ -24,7 +24,7 @@ def main():
         for dir_name in os.listdir(root):
                 dir_path = os.path.join(root, dir_name)
                 sreens_path = os.path.join(dir_path, 'screenshots')
-                game_name = getSteamName(dir_name)
+                game_name = get_steam_name(dir_name)
 
                 if (game_name):
                         game_name = re.sub(ur'[^a-zA-Z0-9-_]', ' ', game_name).strip()
