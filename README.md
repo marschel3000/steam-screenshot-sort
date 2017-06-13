@@ -4,4 +4,4 @@ This tiny python script puts all your steam screenshots in folders named after t
 Just execute **steam-screenshot-sort.py** in the steam-scrreenhot-folder (f.e. "C:\Program Files (x86)\Steam\userdata\\[xxxxxxxxx]\760\remote"). 
 
 
-The alternative script "steam-screenshot-sort - user folder.py" can be placed in the user-defined screenhoot folder, and also sorts the pictures in seperate folders.
+The alternative script "steam-screenshot-sort - user folder.py" can be placed in the user-defined screenhoot folder (see Steam > Settings > In Game > Screenshot folder), and also sorts the pictures in seperate folders.
